@@ -1,23 +1,42 @@
-# Evergrow — Level 2.8
+# Evergrow — Level 2.9
 
-[Download Evergrow Level 2.8](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.8.zip)
+[Download Evergrow Level 2.9](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.9.zip)
 
-Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern browser. No installer, account, server, or Internet connection is needed.
+Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern browser. The game works offline, with no installer, account or server.
 
-The same first-person story starts at home and now continues to **25 km**, with automatic story stops. Choose **Keep growing** to continue. Numbered chapters stay removed.
+The same first-person growing story starts in your house and now reaches **50 km**. Automatic story stops remain; choose **Keep growing** to continue. Numbered chapter gates stay removed.
 
-- **10 km:** Look down at a spherical, circular world with oceans, land, mountains, and New York. It looks smaller as your eyes rise. This is deliberately exaggerated storybook geography, not a scale model of Earth.
-- **15 km:** The sky begins darkening as you grow. Humans and aliens build a pretend Dyson sphere: a swarm of sunlight collectors around the Sun. Construction takes five seconds while height is paused.
-- **Sunlight for everyone:** Turn on the world’s biggest night-light, see its golden glow and world lights, then share sunlight warmth through community heating panels. Look buttons show the collectors, giant lamp, and round world.
-- **Four new rescues:** survey crew at 12 km (7 people), lamp engineers at 15 km (8), sunlight sailors at 20 km (5), and returning researchers at 25 km (16).
-- **25 km:** Growth reaches this update’s cap. Mining, light construction, warmth, the phone, and unfinished rescues still work.
+## The whole world comes with you
 
-All nineteen rescues have single-award rewards, separate pretend social posts, and saved replays. Together they save 546 lives and award 40,250 popularity and 93,200 social points. There are 47 optional tasks and 15 Lab readings. Rescue loads use protective levitation while arms keep normal proportions, with no crash countdown.
+At **10 km**, buildings from around the world fly up and gather into ONE gigantic floating city. Watch the eight-second lift while height is paused. **New York keeps rising beside you through 50 km**, joined by Tokyo, Paris, Singapore, Dubai, Rio and Cairo. The round world below still looks smaller as you rise. Its curvature is deliberately exaggerated storybook geography.
 
-Earlier features remain: the house, ten neighboring homes, New York and news, F1 boots, clouds and X-ray helmet, NASA shields, floating offices, Morse call, Burj Khalifa, growing SRMAS, six alien mountains, nine planes, six miners and resource crafting, community astronaut suits, and every earlier rescue.
+## New playable activities
 
-New York’s platforms hold their 10 km lift setting; protected friends and visiting decks stay near your eyes. Mining and sunlight construction continue while height is paused. The phone, help, and hidden browser tabs pause the simulation. Progress lasts for the current session. All inventions, air supplies, resources, news, and posts stay inside the pretend offline game.
+- Tour six sky districts and collect six unique passport stamps.
+- Connect skybridges for free to open protected walkways and the looping sky railway.
+- Ride the sky train for a ten-second first-person trip. The actual camera moves through the city; growth pauses. Repeat rides work at 50 km.
+- Spend **9 crystals + 15 sky iron** once to plant a visible floating garden with trees and flowers. Your miners keep gathering afterward.
+- Connect bridges, plant the garden and share sunlight warmth to start the **world-city light festival**. District windows and steady lanterns light up.
+- The observatory opens at **35 km**. At **45 km**, scan three stars for **300 discovery points**, the Friendship constellation and the Stargazer badge.
 
-The ZIP contains only Play-Evergrow.html and READ-ME.txt. Earlier published downloads remain available in this branch.
+At **45 km**, the sky turns **black with stars and the Sun**. All **nine aircraft become SR-71 Blackbirds**, with pointed noses, swept wings, twin engines and twin fins. In this dream, special shields let them fly at these fictional heights.
 
-Validation: 77 unit tests, 18 browser scenarios, and a final offline ZIP/startup/stop/resume check passed. Browser tests use Linux Chromium, including strict offline touch sandboxes. Windows Chrome and the chat Web preview wrapper are not directly tested.
+## Five new rescues
+
+- 30 km: hospital shuttle — 40 people.
+- 35 km: garden transport — 12 people.
+- 40 km: sunlight relay crew — 6 people.
+- 45 km: SR-71 Blackbird — 2 pilots.
+- 50 km: sky ferry — 320 people.
+
+Each new rescue needs the assembled city, F1 boots, NASA shields and SRMAS. Look, catch within reach, then lower gently onto a clear floating city terrace. There is no crash countdown; arms keep normal proportions while levitation carries the load. Rewards arrive once after landing, with an independent replay and pretend social post.
+
+All **24 rescues** together save **926 lives** and award **83,750 popularity** and **194,700 social points**. There are **60 optional tasks** and **20 Lab readings**.
+
+Earlier features remain: the bedroom, neighbors, New York and news, F1 boots, clouds and X-ray helmet, NASA shields, floating offices, Morse call, Burj Khalifa, growing SRMAS, six alien mountains, miners and resource crafting, community astronaut suits, sunlight collectors, night-light, warmth, and every previous rescue.
+
+At 50 km, growth stops for this update. City activities, mining, light construction, the phone and unfinished rescues keep working. The phone, help and hidden tabs pause the simulation. Progress lasts for this session. All inventions, air supplies, resources, news and posts stay inside the pretend game.
+
+Validation: **86 unit checks and 20 browser scenarios passed**, plus a final offline ZIP smoke check. Browser scenarios run in Linux Chromium, including narrow strict offline touch sandboxes. Windows Chrome and the chat Web preview wrapper are not directly tested.
+
+The ZIP contains only Play-Evergrow.html and READ-ME.txt. Earlier published downloads remain preserved.
