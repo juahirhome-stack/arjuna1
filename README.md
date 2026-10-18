@@ -1,15 +1,23 @@
-# Evergrow — Level 2.6, automatic stops restored
+# Evergrow — Level 2.7
 
-[Download the updated Level 2.6](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.6-Auto-Stops.zip)
+[Download Evergrow Level 2.7](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.7.zip)
 
-Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern browser. No installer or account is needed; the game works offline.
+Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern browser. The game works offline, with no installer or account.
 
-**Automatic growth stops are back.** Growth lands exactly on each new story milestone once, giving you time to look around. Choose **Keep growing** whenever you are ready to continue. Numbered chapter labels and chapter progress bars remain removed.
+The same first-person story now continues to the **10 km height limit for this update**. Automatic milestone stops remain; choose **Keep growing** to continue. Chapter numbers stay removed.
 
-Stops: near the ceiling at 2.9 m, then 25, 100, 200, 350, 400, 450, 500, 600, and 800 m; then 1, 3, and 5 km. You can keep growing beyond 5 km without a final size limit. A pause message explains how to continue.
+- **2 km:** Hire six city-sponsored miners for free. Every six seconds they deliver 3 lumen crystals and 5 sky iron from protected mountain tunnels. Visit their floating workshop.
+- **Crafting:** Spend 6 crystals and 10 sky iron once to build a visible rescue beacon. The team keeps gathering resources afterward.
+- **5 km:** Watch the whole community put on astronaut suits and helmets. Residents, miners, office workers, NASA visitors, skydivers, the Burj crew, and the news reporter suit up.
+- **Five new rescues:** miners’ lift at 2 km, cargo jet at 3 km, observation deck at 5 km, weather shuttle at 7.5 km, and a 220-person airliner at 10 km.
+- **10 km:** Growth reaches the current cap. Mining, crafting, rescues, movement, and the phone still work.
 
-This is the same game: six alien-made snowy mountains, nine planes, the mountain overlook and return button, all ten rescues, New York, F1 boots, NASA visitors, the Burj Khalifa, X-ray helmet, growing SRMAS, pretend social posts, and saved replays remain available.
+All fifteen rescues have separate single-award rewards, pretend social posts, and saved replays. Together they save 510 lives and award 20,750 popularity and 48,700 social points. Arms retain normal proportions; new high-altitude targets approach close enough to see and use clear landing areas.
 
-The ZIP contains only Play-Evergrow.html and READ-ME.txt. All news, social media, inventions, and air supplies are part of the pretend offline story. Progress lasts for the current session. Earlier downloads remain in this branch.
+Earlier features remain: the house and neighbors, New York and news, F1 boots, clouds and X-ray helmet, NASA shields, floating offices, Morse call, Burj Khalifa, growing SRMAS, six alien mountains, nine planes, and the mountain overlook.
 
-Validation for this update: 60 unit tests and five targeted browser-suite checks, covering all 13 automatic stops and resumes, startup, the 1–5 km views, and a narrow offline touch sandbox with a rescue. Browser checks use Linux Chromium.
+Mining continues while height is paused or capped. Opening the phone/help or hiding the page pauses the simulation. Progress lasts for the current session. All news, posts, inventions, air supplies, and resources are part of the pretend offline game. No real payment is involved.
+
+The ZIP contains only Play-Evergrow.html and READ-ME.txt. Earlier published downloads remain available in this branch.
+
+Validation: 69 unit tests, 16 browser scenarios, and a final offline package startup/stop/resume smoke check passed. Browser verification uses Linux Chromium, including a narrow offline touch sandbox; Windows Chrome and the chat Web preview wrapper are not directly tested.
