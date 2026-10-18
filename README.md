@@ -1,30 +1,35 @@
-# Evergrow — Level 2.3
+# Evergrow — Level 2.4
 
-[Download Level 2.3](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.3.zip)
+[Download Level 2.4](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.4.zip)
 
-Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern desktop browser. The game needs no installer, account, server, or Internet connection.
+Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern desktop browser. No installer, account, server, or Internet connection is needed to play.
 
-Your first-person growing story starts at home. At **25 m**, ten new houses and neighbors appear. At **100 m**, your village becomes a storybook New York with skydivers and the news helicopter. Wear the F1 magic boots to protect the city while walking.
+Your first-person story begins at home. Earlier chapters include neighbors filming you at 25 m, New York and magic boots at 100 m, clouds and the growing X-ray helmet at 200 m, and clear sky above the clouds at 350 m. NASA’s pretend levitation and shields let visitors keep you company safely.
 
-At **200 m**, clouds hide the city. The repair crew delivers an **X-ray helmet** that shows the city through the mist, your altitude, and visibility information. Its materials replicate so it keeps fitting as you grow. Toggle the scan to compare visibility. The cloud layer ends **at 350 m**, leaving clear sky and a cloud deck below.
+## The 350–500 m chapter
 
-In your pretend story, **NASA invents levitation and protective shields**. Activate them to welcome visitors on two protected platforms at your eye level. Visitors rise with you. **Your arms keep normal proportions:** protective levitation carries rescue loads down while your arms stay comfortably bent, including in replays.
+**At exactly 400 m, the buildings rise!** The whole city planned the surprise because they do not want to lose sight of you. Watch a four-second lift onto glowing protected platforms. Buildings keep moving upward with you afterward. Streets and rescue landing areas remain safely on the ground.
 
-Four rescues earn separate rewards and save separate replays:
+Visit the **office growth lab** to see workers, desks, notebooks, monitors, and their chart. Open **Lab** on your phone to read measurements at **400, 450, and 500 m**. The workers compare observations; your growing remains a story mystery.
 
-| Rescue | People saved | Popularity | Social points |
-| --- | ---: | ---: | ---: |
-| Airliner out of fuel | 180 | 1,000 | 2,500 |
-| Drifting skydiver | 1 | 250 | 700 |
-| Helicopter in the clouds, 200 m | 12 | 600 | 1,400 |
-| Balloon family above the clouds, 350 m | 6 | 450 | 1,100 |
+**At 500 m, the floating city celebrates** with golden windows, confetti, and thank-you messages. Wave to everyone! This chapter ends with another research-team rescue, and you can keep growing without a final size.
 
-Equip boots before rescues. The helicopter also needs the helmet and NASA equipment; the balloon needs NASA equipment. Use **Look at rescue**, **Catch**, and **Lower gently**. Fog prevents an unassisted catch, so turn the X-ray scan on inside the cloud layer. There is no crash countdown; take your time.
+Three new rescues join the four earlier ones:
 
-**City buzz** shows reactions to every rescue. **Replays** lets you watch, pause, scrub, restart, and choose any saved rescue. Scores are awarded once after a safe landing, and replaying never grants extra points. Posts, news, and inventions are fictional and stay inside the game.
+| New rescue | Unlock | People saved | Popularity | Social points |
+| --- | --- | ---: | ---: | ---: |
+| Window-cleaning gondola | 350 m + boots/NASA | 2 | 300 | 800 |
+| Stalled sky tram | 400 m + completed city lift + boots/NASA | 24 | 900 | 2,200 |
+| Research capsule | 500 m + read Lab + boots/NASA | 5 | 750 | 1,800 |
 
-Drag to look, W A S D to walk, or use arrow keys and on-screen controls. Choose Quick or Super fast pace to reach new chapters sooner. Growth pauses at chapter boundaries and during rescues. The phone and help dialog pause the mission. Start over clears the current session; progress is not saved after closing the game. Growth has no final size.
+Every rescue has its own pretend social reaction and saved replay. Catch the load when close, then choose **Lower gently**. Levitation carries it safely down while your arms keep normal proportions. Scores arrive once after a safe landing; watching replays never adds more points. Completing all seven rescues saves 230 people and earns 4,250 popularity and 10,500 social points.
 
-Validation: **39 unit tests and 14 browser tests** cover the original story, exact cloud boundaries, visibility controls, helmet fit, shielded visitors, normal arm reach, all four rescue rewards and replay paths, touch controls, offline sandbox operation, restart, and startup recovery. Automated browser tests use Linux Chromium; Windows Chrome and the chat Web preview are not directly tested.
+## Controls
 
-Earlier downloads: [Level 2.2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.2.zip) · [Level 2.1](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.1.zip) · [Level 2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.zip)
+Drag to look. W A S D, arrow keys, or on-screen arrows let you move and turn. Use the journal to explore home. Choose Quick or Super fast pace to reach the chapters sooner. Growth pauses at each story checkpoint and during rescues or the city lift. The phone and help dialog pause the action. There is no crash countdown, so take your time.
+
+All posts, news, and inventions are fictional and stay inside the game. Start over clears the current session; progress is not saved after closing the game.
+
+Validation: **46 unit tests and 17 browser tests** cover all chapters, the rising city, finite building geometry and clear landing areas, office research, rescue rewards and replay paths, normal arms, mobile touch layouts, offline sandbox operation, restart, and startup recovery. Automated browser tests use Linux Chromium; Windows Chrome and the chat Web preview are not directly tested.
+
+Earlier downloads: [Level 2.3](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.3.zip) · [Level 2.2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.2.zip) · [Level 2.1](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.1.zip) · [Level 2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.zip)
