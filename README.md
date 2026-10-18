@@ -1,19 +1,30 @@
-# Evergrow — Level 2.2
+# Evergrow — Level 2.3
 
-[Download Level 2.2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.2.zip)
+[Download Level 2.3](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.3.zip)
 
-Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern desktop browser. No installation, account, server, or Internet connection is needed to play.
+Extract the ZIP, then open **Play-Evergrow.html** in Chrome or another modern desktop browser. The game needs no installer, account, server, or Internet connection.
 
-Your first-person growing story starts in your bedroom. At **25 meters**, ten more houses and ten neighbors appear. At **100 meters**, your village turns into a storybook New York: skyscrapers, avenues, taxis, Central Park, the Hudson River, and skydivers waving at you. The news helicopter keeps filming.
+Your first-person growing story starts at home. At **25 m**, ten new houses and neighbors appear. At **100 m**, your village becomes a storybook New York with skydivers and the news helicopter. Wear the F1 magic boots to protect the city while walking.
 
-Put on the **F1 magic boots** to walk without harming the city. Answer the **airliner rescue call**: look at the aircraft, catch it when close, then **Lower gently** onto the clear runway. Save all 180 people and earn **1,000 popularity** and **2,500 social points**. Help a drifting skydiver reach Central Park for another **250 popularity** and **700 social points**.
+At **200 m**, clouds hide the city. The repair crew delivers an **X-ray helmet** that shows the city through the mist, your altitude, and visibility information. Its materials replicate so it keeps fitting as you grow. Toggle the scan to compare visibility. The cloud layer ends **at 350 m**, leaving clear sky and a cloud deck below.
 
-Check your phone’s **City buzz** for reactions. **Replays** lets you watch, pause, scrub, restart, and choose either saved rescue. Points arrive once per completed rescue, and replays do not award extra points. All posts and news are fictional and stay inside the game.
+In your pretend story, **NASA invents levitation and protective shields**. Activate them to welcome visitors on two protected platforms at your eye level. Visitors rise with you. **Your arms keep normal proportions:** protective levitation carries rescue loads down while your arms stay comfortably bent, including in replays.
 
-Drag to look; W A S D to walk; arrow keys or on-screen arrows to walk and turn. Use the journal to explore home. Choose Quick or Super fast growth pace to reach chapters sooner. Growth pauses near the ceiling, at 25 m, and at 100 m. Choose Keep growing whenever ready: there is no final height limit.
+Four rescues earn separate rewards and save separate replays:
 
-During rescues, growth and walking pause. Opening the phone or help pauses the mission. The plane waits within reach, so you can take your time. Start over clears the current session, including points and replays.
+| Rescue | People saved | Popularity | Social points |
+| --- | ---: | ---: | ---: |
+| Airliner out of fuel | 180 | 1,000 | 2,500 |
+| Drifting skydiver | 1 | 250 | 700 |
+| Helicopter in the clouds, 200 m | 12 | 600 | 1,400 |
+| Balloon family above the clouds, 350 m | 6 | 450 | 1,100 |
 
-Validation: 32 unit tests and 12 browser tests cover the story, city, rescue stages, scoring, replays, touch layouts, offline operation, restart, and startup recovery. Browser tests use Linux Chromium; Windows Chrome and the chat Web preview are not directly tested.
+Equip boots before rescues. The helicopter also needs the helmet and NASA equipment; the balloon needs NASA equipment. Use **Look at rescue**, **Catch**, and **Lower gently**. Fog prevents an unassisted catch, so turn the X-ray scan on inside the cloud layer. There is no crash countdown; take your time.
 
-Earlier downloads: [Level 2.1](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.1.zip) · [Level 2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.zip)
+**City buzz** shows reactions to every rescue. **Replays** lets you watch, pause, scrub, restart, and choose any saved rescue. Scores are awarded once after a safe landing, and replaying never grants extra points. Posts, news, and inventions are fictional and stay inside the game.
+
+Drag to look, W A S D to walk, or use arrow keys and on-screen controls. Choose Quick or Super fast pace to reach new chapters sooner. Growth pauses at chapter boundaries and during rescues. The phone and help dialog pause the mission. Start over clears the current session; progress is not saved after closing the game. Growth has no final size.
+
+Validation: **39 unit tests and 14 browser tests** cover the original story, exact cloud boundaries, visibility controls, helmet fit, shielded visitors, normal arm reach, all four rescue rewards and replay paths, touch controls, offline sandbox operation, restart, and startup recovery. Automated browser tests use Linux Chromium; Windows Chrome and the chat Web preview are not directly tested.
+
+Earlier downloads: [Level 2.2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.2.zip) · [Level 2.1](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.1.zip) · [Level 2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-2.zip)
