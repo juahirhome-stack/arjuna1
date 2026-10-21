@@ -1,89 +1,75 @@
-# Evergrow — Level 3.2: A Sky Full of Satellites
+# Evergrow — Level 3.3: Sunrises & Storm Watch
 
-[Download Evergrow Level 3.2](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.2.zip)
+[Download Evergrow Level 3.3](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3.zip)
 
-The same first-person growing story starts at home and now reaches **1,000 km**. The floating world-city, miners, train, spaceport, robot buddy, ISS missions and every earlier rescue remain. Automatic story stops remain; **Keep growing** resumes them. The old 500 km stop is now resumable.
+The same first-person growing story starts in your bedroom and now reaches **2,000 km**. All earlier adventures, rescues, the floating world-city, miners, satellite fleet, Hubble and ISS remain. **Automatic growth stops remain**; choose **Keep growing** to continue. The former 1,000 km cap is now resumable.
 
-**Hubble stays at our chosen game altitude of 520 km. The ISS stays at 400 km.** Both are independent of your growing height, and both can be revisited from the height cap. Their real orbital altitudes change over time. Fictional shielded service pods match their motion and provide close first-person views without moving either object.
+## Day + night in 9–12 minutes
 
-## MORE satellites
+Choose **9 minutes**, **10½ minutes** (default), or **12 minutes** for one complete day-and-night cycle of active simulation time. Growth pace does not accelerate this clock. Pausing growth lets time, weather and miners continue. Phone, help, observatory album and hidden tabs pause the simulation.
 
-A fictional helper fleet fills magical viewing lanes in clear sky, away from the city towers. It grows with the story:
+Sunlight moves across the same round Earth; buildings darken gently at night while remaining visible. The Sun moves in the sky and disappears during the local night. Space remains black with stars. **Watch day now** and **Watch night now** jump to a view without changing progress, after which the selected cycle continues normally. These jumps do not count as completed natural orbits. Changing cycle length preserves the current phase.
 
-| Your height | Helper satellites |
-| --- | ---: |
-| 500 km | 24 |
-| 550 km | 48 |
-| 650 km | 72 |
-| 800 km | 96 |
-| 1,000 km | 120 |
+## Weather you can see
 
-Launch three CubeSats to bring the final visible fleet to **123**. The six satellite designs have communications, weather, Earth science, navigation, rescue-beacon and research roles. Their bodies, panels and antennas are cached; each frame moves the existing meshes through the viewing lanes. This is a dream fleet that follows you, unlike real satellite orbits. The real objects Hubble and ISS keep their fixed game altitudes.
+The **Live Earth Weather** panel appears as soon as your story begins. It shows an illustrated globe with drifting cloud sheets, moving sunlight, night-side lights and a close-up camera. Choose four camera regions to see **clear skies, falling rain, fluttering snow and a slowly swirling ocean storm**. Camera conditions rotate every **90 active seconds**. The first-person round Earth also has moving cloud sheets.
 
-Choose **Look across the satellite fleet** for a clear view. Choose a kind, **Look at this satellite**, then **Scan** when lined up. Six unique passport stamps award **200 satellite points each**, once. You can hide or show the fleet; hidden satellites cannot be scanned.
+Weather happens in Earth's atmosphere, below the space view. These are fictional illustrated conditions generated inside the offline game. No real weather service, location data or internet is used.
 
-## Hubble at 520 km
+At **1,000 km**, scan each of the four weather kinds for **150 weather points** each, then save a picture of that kind for **200 points** each. Each awards once. The **Weather album** stores a snapshot of its camera region, cloud time and sunlight phase; pictures remain still while live weather continues. Select any saved picture to view it.
 
-Wear SRMAS and activate NASA and celebration shields, then **Visit Hubble service pod**. Body height and walking pause while your view moves beside the silver telescope and its two blue solar wings at 520 km. **Return to my city** restores your body view and lets you keep growing. The ISS remains at 400 km.
+## Activities between 1,000–2,000 km
 
-Hubble itself is **uncrewed**. The new rescue involves **three helpers in a separate fictional service pod**, with a clear landing terrace. The utility shield carries them while the pod occupant’s arms retain normal proportions.
-
-- Open the **pretend lens cover** for **300 points**, once.
-- Tune the **stabilizer slider to 65**, within 3, then lock it for **500 points**, once. It cannot lock early or be tuned after completion.
-- Select **Rose Nebula**, **Friendship Galaxy**, or **Firefly Star Cluster**, and expose each for **three seconds**. Each unique picture awards **400 points**, once. Exposures block leaving the pod or starting a rescue until finished.
-- Open the **observatory album** to view all saved pictures. The images are locally drawn pretend illustrations inspired by space, rather than real Hubble photographs. The album, phone and help pause simulation timers, including active exposures.
-
-## Things to do in between
-
-| Height | New activity |
+| Height | Activity |
 | --- | --- |
-| 550 km | After scanning a Weather helper, send a pretend safety alert for **300 points**. |
-| 600 km | Launch three **CubeSats**, each costing **2 crystals + 3 sky iron**. Each two-second launch adds a visible helper and **250 points**, once. |
-| 650 km | The fleet grows to 72; help the solar-sail engineers. |
-| 700 km | Deliver three messages through the right aimed helpers: **hospital → Rescue beacon**, **forecast → Weather**, **classroom → Communications**. Each awards **300 points**, once. A mismatch leaves the message waiting without a penalty. |
-| 750 km | Take a **ten-second first-person satellite skyway tour**. The camera moves in an actual loop with a gentle vertical rise. Drag to look; height and walking pause. The first full trip pays **400 points**. Repeats still work at 1,000 km without duplicate points. |
-| 800 km | The fleet grows to 96; rescue the school habitat. |
-| 850 km | A **four-second magnetic sweep** collects three visible pretend scrap fragments for recycling and awards **500 points**, once. |
-| 900 km | Guide a 120-person night ferry home. |
-| 950 km | Start a steady **constellation parade** after six stamps, three CubeSats, three messages and three Hubble pictures. It awards **1,000 points**, once. |
-| 1,000 km | The fleet reaches 120 plus your CubeSats. Rescue the 400-person star ferry and name your **sky-crown constellation**: Kindness Spiral, Friendship Ring or Starry Smile. |
+| 1,100 km | Build a **sunlight battery** for **4 crystals + 6 sky iron** after hiring miners. It charges for **eight active daylight seconds**; night pauses charging. Once full, switch to night and **send stored light to night-side homes** for **600 points**, once. The weather globe shows the powered lights. |
+| 1,200 km | After all four scans, **share the four-region forecast** for **500 points**, once. |
+| 1,300 km | Watch mountain snow and answer the snow-laboratory rescue. |
+| 1,400 km | Follow the ocean spiral storm and rescue its weather pilots. |
+| 1,500 km | Tune the **aurora beacon slider to 72**, within 3, and switch it on for **700 points**, once. Look at its steady mint-and-violet ribbon beside your satellites. This is a pretend beacon at helmet height; real auroras remain much lower. |
+| 1,650 km | Rescue the garden seed ship, including twelve gardeners and their seedlings. |
+| 1,800 km | Help the night-side school trip. |
+| 1,900 km | The city prepares its horizon festival; finish any remaining activities. |
+| 2,000 km | Rescue the 800-person horizon liner. Complete four weather photos, the forecast, battery delivery, aurora beacon and all eight new rescues to start the **horizon festival** for **2,000 points**, once. |
 
-The sky crown requires the parade, weather alert, first tour, cleanup and all eight new rescues. It awards **2,000 points**, once. Completing all new non-rescue activities awards **9,050 satellite points**, separate from rescue, orbital, celebration and discovery scores. These pretend messages and pictures remain inside the game.
+Completing all new non-rescue activities gives **5,200 weather points**, separate from satellite, orbital, celebration, discovery and rescue scores. The sunlight battery spends resources only once. It can finish charging at the height cap. All unfinished activities and earlier station visits remain available at 2,000 km.
 
 ## Eight new rescues
 
-| Rescue | Height | Lives | Popularity | Social points |
+| Rescue | Height | People | Popularity | Social points |
 | --- | ---: | ---: | ---: | ---: |
-| Separate Hubble service pod | 520 km | 3 | 32,000 | 75,000 |
-| Weather skiff | 550 km | 4 | 34,000 | 80,000 |
-| Broadcast ship | 600 km | 10 | 36,000 | 85,000 |
-| Solar-sail engineers | 650 km | 6 | 38,000 | 90,000 |
-| Orbital clinic | 700 km | 20 | 40,000 | 95,000 |
-| School habitat | 800 km | 60 | 42,000 | 100,000 |
-| Night ferry | 900 km | 120 | 44,000 | 105,000 |
-| Thousand-kilometer star ferry | 1,000 km | 400 | 50,000 | 120,000 |
+| Dawn observatory crew | 1,100 km | 6 | 52,000 | 125,000 |
+| Coastal rain ferry | 1,200 km | 48 | 54,000 | 130,000 |
+| Snow laboratory | 1,300 km | 8 | 56,000 | 135,000 |
+| Storm-watch pilots | 1,400 km | 4 | 58,000 | 140,000 |
+| Aurora researchers | 1,500 km | 7 | 60,000 | 145,000 |
+| Garden seed ship | 1,650 km | 12 | 62,000 | 150,000 |
+| Night-side school bus | 1,800 km | 50 | 64,000 | 155,000 |
+| Horizon liner | 2,000 km | 800 | 80,000 | 200,000 |
 
-The seven body-view missions require a ready spaceport, F1 boots, SRMAS, NASA shields and celebration shield. They approach within 300 m of your eyes and land downward on clear floating terraces. The Hubble-pod mission requires the close service-pod view and lands at the fixed telescope altitude. Growth, walking and leaving pause during active rescues. Look, catch when lined up, then lower gently. There is no failure countdown. Arms retain normal proportions; a protective utility field moves the rescue load.
+These eight save **935 people**, with **486,000 popularity** and **1,180,000 social points**. Across all **53 rescues**, save **3,164 people**, with **1,201,250 popularity** and **2,863,700 social points**.
 
-Each mission pays once after landing, saves an independent replay and adds a pretend social post. The new eight save **623 people**, with **316,000 popularity** and **750,000 social points**. Across all **45 rescues**, you can save **2,229 lives**, earn **715,250 popularity** and **1,683,700 social points**.
+Wear F1 boots, SRMAS, NASA shields and the celebration shield, and let Friendship Spaceport finish building. Answer a rescue call, **Look at rescue**, **Catch** when lined up and close, then **Lower gently**. Each lands on a clear terrace below your eyes. Protective levitation moves the load while arms keep normal proportions. Growth and walking pause; there is no crash countdown. Each rescue awards once after landing and saves its own pretend social post and replay. Climate controls are locked during active rescues, rides and station visits.
 
-There are **120 optional tasks**, **48 Lab observations** and **53 automatic stops**. New stops are **520, 550, 600, 650, 700, 750, 800, 850, 900, 950 and 1,000 km**. At the 1,000 km cap, mining, launches, exposures, cleanup, construction, visits, rides and unfinished rescues continue. Phone, help, album and hidden tabs pause simulation time. Start over clears all old and new progress; progress lasts for the current session.
+There are now **139 optional tasks**, **57 Lab observations** and **62 automatic stops**. New stops are **1,100, 1,200, 1,300, 1,400, 1,500, 1,650, 1,800, 1,900 and 2,000 km**. Start over clears the current session's progress, including weather, pictures, time and inventions.
 
-## Your earlier adventures remain
+## Earlier adventures remain
 
-Start in your bedroom and explore home. Meet the neighbors at 25 m; see New York and yourself on the news at 100 m; equip protective F1 boots; see through the clouds with a growing X-ray helmet; invite NASA visitors; and visit the rising office lab. Call the cosmic alien in Morse code, meet the Burj crew, wear SRMAS, explore six alien mountains, hire six miners at 2 km and watch the community suit up at 5 km.
+Explore home in first person. At 25 m, ten more houses and filming neighbors appear. At 100 m, see New York, the news helicopter and skydivers; wear magic F1 boots and rescue an airliner. At 200–350 m, equip the growing X-ray helmet to see through clouds and invite shielded NASA visitors. At 400 m, watch buildings rise, visit office researchers and read their growth observations. At 600 m, a Morse call brings a friendly alien, the Burj Khalifa and suit pods. Receive and wear SRMAS.
 
-At 10 km, world cities unite on floating platforms and keep pace with you. Visit six districts, connect bridges, ride the sky train, plant a garden, start a festival, collect sunlight for the world night-light and share warmth. See stars, the Sun and nine shielded SR-71 Blackbirds at 45 km. From 50–100 km, visit Friendship Spaceport, launch a party rocket, catch three presents to meet a robot buddy, build a docking ring, take a floating ride, see the Moon, take a party picture, start a lantern parade and seal a time capsule.
+At 1 km, see six alien mountains and nine planes. Hire six miners at 2 km: they bring **3 crystals + 5 sky iron every six seconds**, even while height is paused or capped. At 5 km, everyone suits up. At 10 km, the map becomes a curved globe and cities unite into a floating world-city that keeps pace with you. Visit six districts, build skybridges, take the first-person sky train, plant a garden and start a festival. Sunlight collectors at 15 km power the giant night-light and shared warmth. At 45 km, see stars and nine shielded SR-71 Blackbirds.
 
-Between 100–400 km, answer the ISS radio, send a supply drone, take an Earth postcard, recycle loose fragments, build a relay satellite and play the aurora light harp. Visit the ISS at its fixed 400 km altitude, collect tools, align a solar wing, repair cooling, help three station rescues and earn the Orbital Helper badge. The five earlier voyage rescues and all earlier records stay available. At 500 km, the ISS friendship beacon remains an optional celebration before continuing this update.
+From 50–100 km, enjoy Friendship Spaceport, a party rocket, presents, robot buddy, docking ring, floating ride, Moon, photo, lantern parade and time capsule. Between 100–400 km, answer the ISS radio, send supplies, take an Earth postcard, recycle fragments, build a relay and play the light harp. Visit a shielded service pod beside the **fixed ISS at 400 km**, collect tools, align its solar wing to **35°**, repair cooling (**inlet open, bypass closed, return open**), help three station rescues and earn the Orbital Helper badge.
 
-Miners deliver **3 crystals + 5 sky iron every six seconds**, including while height is paused or capped. Earlier recipes still spend once: beacon **6/10**, relay **6/10**, garden **9/15**, docking ring **12/20** (crystals/iron). The round map exaggerates Earth’s curvature as storybook geography. All air supplies, inventions, news and posts remain inside the pretend game.
+From 500–1,000 km, the dream helper fleet grows from 24 to **120 satellites**, plus **three craftable CubeSats**. Scan six designs. Visit the **fixed Hubble telescope at our chosen 520 km game altitude**, open its pretend cover, tune the stabilizer to **65** and expose three locally illustrated space pictures. Hubble is uncrewed; its rescue is a separate fictional service pod. Route hospital/forecast/classroom messages through Rescue beacon/Weather/Communications helpers, ride the satellite skyway, sweep fragments, start the constellation parade and name a sky crown. The fictional helper viewing lanes follow your growing body; Hubble and ISS stay in their own game orbits and can be revisited from 2,000 km.
+
+All earlier resource recipes remain: beacon **6/10**, relay **6/10**, garden **9/15**, docking ring **12/20**, each CubeSat **2/3** (crystals/iron). The round Earth exaggerates curvature for storybook geography. Shields, levitation, suits and air packs are dream inventions. Posts, news, weather and pictures stay inside the game.
 
 ## Play and develop
 
-Download **Evergrow-Level-3.2.zip**. On Windows, right-click it, choose **Extract All**, then open **Play-Evergrow.html** in Chrome or another modern browser. The ZIP contains only that HTML file and READ-ME.txt. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
+Download **Evergrow-Level-3.3.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
 
-Node.js 22.12 or later is required; the cloud uses Node 24.
+Node.js 22.12 or newer is required; the cloud uses Node 24.
 
 ```sh
 npm ci
@@ -92,12 +78,10 @@ npm test
 npm run test:browser
 ```
 
-The build exports Vite assets, a self-contained classic-script HTML game and reproducible ZIPs. Older local filenames alias the current build; previously published downloads remain preserved. No credentials are needed to play.
+The build exports Vite assets, a self-contained classic-script HTML game and reproducible ZIPs. Older local filenames alias the current build. Older published downloads remain preserved. Startup Check W2 draws the first picture immediately and supplies a timer backup for stalled animation callbacks.
 
-Validation covers the earlier story, 53 stops, new cap, growing cached fleet, actual satellite motion, aimed single-award scans, fixed Hubble/ISS geometry, pod camera and return, stabilizer gates, exposures and album/phone pause, CubeSat resource spending, correct message routing, actual tour motion, cleanup, parade/crown prerequisites, all eight new rescues and independent replays, normal arms, timers at the cap, reset, strict offline touch sandboxes and startup regressions. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
+Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-Startup Check W2 supplies a readable fallback before the game script. The first picture draws immediately, with a timer backup for stalled animation callbacks.
+Verification retained three initial browser failures: an outdated task-total expectation and two automation timeouts. The expectation was corrected; all three scenarios passed on rerun against the unchanged game bundle. The report preserves the initial and successful rerun logs. All 29 browser scenarios ultimately passed, along with 132 unit checks and the extracted ZIP offline smoke check.
 
-Verification records retain four initial parallel-automation timeouts, the lower-concurrency reruns, and a final fresh-browser confirmation. All 26 scenarios ultimately passed against the unchanged game bundle; the extracted ZIP also passed its offline smoke check.
-
-Validation complete: **120 unit checks and 26 browser scenarios passed**, plus an offline smoke check of the extracted ZIP. Earlier published downloads remain preserved.
+Validation complete: **132 unit checks and 29 browser scenarios passed**, plus an offline smoke check of the extracted ZIP. Earlier published downloads remain preserved.
