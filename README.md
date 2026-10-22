@@ -1,20 +1,12 @@
-# Evergrow — Level 3.3 Lite: Easier on your computer
+# Evergrow — Level 3.3 Clean: A Clearer View
 
-[Download the lighter game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3-Lite.zip)
+[Download the clearer game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3-Clean.zip)
 
-This performance fix starts on **Easy on my computer**. If your computer still struggles, choose **Graphics → Extra light** below the game. The same adventure, all 53 rescues, weather and the 2,000 km limit remain.
+The graphics selector has been removed. The game now uses **sharp graphics automatically**, matching the display’s pixel density up to 2×. Old graphics preferences are ignored, and no graphics setting or browser storage is required.
 
-| Graphics | Picture rate limit | Maximum canvas pixel ratio | Live weather refresh |
-| --- | ---: | ---: | ---: |
-| Extra light | 15 per second | 0.65 | 4 per second |
-| Easy on my computer (default) | 24 per second | 0.85 | 6 per second |
-| Sharper picture | 30 per second | 1.25 | 10 per second |
+The first-person view, live weather camera, phone, research charts, rescue replays and Hubble photo album all draw at the display’s resolution instead of stretching a small bitmap. The weather globe’s day/night shadow is smooth and cached; the clear-night weather camera shows a crescent Moon.
 
-The renderer rejects objects and polygons outside the camera view, including invisible satellites, city districts, old landed rescue craft and the Earth when it is below the frame. Repeated window colors share a per-frame lighting calculation. The light modes remove expensive background blur. No missions or visible satellite fleet members are removed.
-
-The main view and weather camera drop to at most one background refresh per second when scrolled offscreen. The 3D scene also rests while dialogs cover it. Before starting the story, the bedroom stays still. Panels update at a lower rate, with immediate updates for story and rescue transitions. The simulation uses small time steps, so movement, rescues, mining, charging and day/night keep their usual speed at 15 fps. Easy mode can automatically fall back to Extra light after sustained slow drawing. Graphics preferences are remembered when local storage is available; blocked storage still works.
-
-A repeatable Chromium benchmark at a 900 × 550 CSS-pixel view, with device pixel ratio 1.5, compared the old default against the new default. In the busy-city fixture, painted polygons fell from **4,675 to 1,426 per picture (about 70% fewer)**, and the canvas used **358,020 instead of 1,113,750 pixels (about 68% fewer)**. Measured drawing time fell from about **40 ms to 18 ms** in that run. Actual performance depends on hardware and scene. Reproduce a current measurement with `node scripts/benchmark-render.js`.
+The performance improvements remain: camera culling skips invisible objects and polygons, repeated lighting colors are shared, the game caps drawing at **24 pictures per second**, and offscreen views slow to one refresh per second. Weather updates at most ten times per second when visible. Covered scenes rest while dialogs are open, and the simulation keeps its normal speed. There are no graphics buttons or automatic switches to a blurry mode.
 
 The same first-person growing story starts in your bedroom and now reaches **2,000 km**. All earlier adventures, rescues, the floating world-city, miners, satellite fleet, Hubble and ISS remain. **Automatic growth stops remain**; choose **Keep growing** to continue. The former 1,000 km cap is now resumable.
 
@@ -81,7 +73,7 @@ All earlier resource recipes remain: beacon **6/10**, relay **6/10**, garden **9
 
 ## Play and develop
 
-Download **Evergrow-Level-3.3-Lite.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
+Download **Evergrow-Level-3.3-Clean.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
 
 Node.js 22.12 or newer is required; the cloud uses Node 24.
 
@@ -96,6 +88,4 @@ The build exports Vite assets, a self-contained classic-script HTML game and rep
 
 Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-The original 3.3 release passed 132 unit checks and 29 browser scenarios. The performance fix has its own validation record covering the changed renderer, scheduling, clocks, lower graphics modes, CPU throttling, sandbox startup and representative story journeys.
-
-Lighter-update validation complete: **138 unit checks and 14 browser checks passed**, plus the extracted ZIP offline test with **4× CPU throttling**. Earlier published downloads remain preserved.
+Clean graphics update validation: **139 unit checks and 9 browser checks passed**, plus an extracted-ZIP offline playthrough through 2,000 km. Older published downloads remain available.
