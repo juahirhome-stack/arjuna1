@@ -1,6 +1,20 @@
-# Evergrow — Level 3.3: Sunrises & Storm Watch
+# Evergrow — Level 3.3 Lite: Easier on your computer
 
-[Download Evergrow Level 3.3](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3.zip)
+[Download the lighter game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3-Lite.zip)
+
+This performance fix starts on **Easy on my computer**. If your computer still struggles, choose **Graphics → Extra light** below the game. The same adventure, all 53 rescues, weather and the 2,000 km limit remain.
+
+| Graphics | Picture rate limit | Maximum canvas pixel ratio | Live weather refresh |
+| --- | ---: | ---: | ---: |
+| Extra light | 15 per second | 0.65 | 4 per second |
+| Easy on my computer (default) | 24 per second | 0.85 | 6 per second |
+| Sharper picture | 30 per second | 1.25 | 10 per second |
+
+The renderer rejects objects and polygons outside the camera view, including invisible satellites, city districts, old landed rescue craft and the Earth when it is below the frame. Repeated window colors share a per-frame lighting calculation. The light modes remove expensive background blur. No missions or visible satellite fleet members are removed.
+
+The main view and weather camera drop to at most one background refresh per second when scrolled offscreen. The 3D scene also rests while dialogs cover it. Before starting the story, the bedroom stays still. Panels update at a lower rate, with immediate updates for story and rescue transitions. The simulation uses small time steps, so movement, rescues, mining, charging and day/night keep their usual speed at 15 fps. Easy mode can automatically fall back to Extra light after sustained slow drawing. Graphics preferences are remembered when local storage is available; blocked storage still works.
+
+A repeatable Chromium benchmark at a 900 × 550 CSS-pixel view, with device pixel ratio 1.5, compared the old default against the new default. In the busy-city fixture, painted polygons fell from **4,675 to 1,426 per picture (about 70% fewer)**, and the canvas used **358,020 instead of 1,113,750 pixels (about 68% fewer)**. Measured drawing time fell from about **40 ms to 18 ms** in that run. Actual performance depends on hardware and scene. Reproduce a current measurement with `node scripts/benchmark-render.js`.
 
 The same first-person growing story starts in your bedroom and now reaches **2,000 km**. All earlier adventures, rescues, the floating world-city, miners, satellite fleet, Hubble and ISS remain. **Automatic growth stops remain**; choose **Keep growing** to continue. The former 1,000 km cap is now resumable.
 
@@ -67,7 +81,7 @@ All earlier resource recipes remain: beacon **6/10**, relay **6/10**, garden **9
 
 ## Play and develop
 
-Download **Evergrow-Level-3.3.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
+Download **Evergrow-Level-3.3-Lite.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
 
 Node.js 22.12 or newer is required; the cloud uses Node 24.
 
@@ -82,6 +96,6 @@ The build exports Vite assets, a self-contained classic-script HTML game and rep
 
 Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-Verification retained three initial browser failures: an outdated task-total expectation and two automation timeouts. The expectation was corrected; all three scenarios passed on rerun against the unchanged game bundle. The report preserves the initial and successful rerun logs. All 29 browser scenarios ultimately passed, along with 132 unit checks and the extracted ZIP offline smoke check.
+The original 3.3 release passed 132 unit checks and 29 browser scenarios. The performance fix has its own validation record covering the changed renderer, scheduling, clocks, lower graphics modes, CPU throttling, sandbox startup and representative story journeys.
 
-Validation complete: **132 unit checks and 29 browser scenarios passed**, plus an offline smoke check of the extracted ZIP. Earlier published downloads remain preserved.
+Lighter-update validation complete: **138 unit checks and 14 browser checks passed**, plus the extracted ZIP offline test with **4× CPU throttling**. Earlier published downloads remain preserved.
