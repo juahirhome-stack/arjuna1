@@ -1,6 +1,22 @@
-# Evergrow — Level 3.3 Clean: A Clearer View
+# Evergrow — Halloween: The Growing Pumpkin Parade
 
-[Download the clearer game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.3-Clean.zip)
+[Download the Halloween game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Halloween.zip)
+
+The same first-person adventure now has an automatically recurring Halloween event. **October 1–31 each year, Singapore time (UTC+8)**: themed home and world, pumpkin lanterns, bat bunting, warm city windows, a growing costume, and pumpkins on the phone and weather camera. It closes **November 1 at 00:00** and returns the next October without downloading another seasonal update. The offline game follows the computer’s clock.
+
+Choose Pumpkin explorer, Friendly bat or Moon ghost. Deliver five lantern-and-treat parcels at home, 25 m, 100 m, 10 km and 100 km for **100 Halloween points each**. Complete three seasonal rescues to unlock the harvest lantern parade for **1,000 bonus points**. The seasonal checklist is separate from the original 139 tasks; it adds no growth stops and no resource costs.
+
+| Halloween rescue | Height | People | Popularity | Social points |
+| --- | ---: | ---: | ---: | ---: |
+| Runaway pumpkin balloon | 100 m | 12 | 1,000 | 3,000 |
+| Stranded bat-wing bus | 10 km | 24 | 12,000 | 28,000 |
+| Moon masquerade shuttle | 1,000 km | 60 | 70,000 | 160,000 |
+
+Magic boots protect each catch. The bus needs SRMAS and NASA shields; the Moon shuttle also needs the celebration shield. They use the same first-person look/catch/lower controls, normal arm proportions, downward shielded landings, separate replays and pretend social posts. Each rescue rewards once per season: **96 lives, 83,000 popularity and 191,000 social points** in total. Halloween activities give a separate **1,500 points**.
+
+The date is checked during play, including while dialogs pause the story, and before actions. After closing, decorations and new seasonal calls disappear; an underway rescue may finish safely. Earned rescue rewards and saved replays remain in the current session. The next year resets the seasonal checklist and makes its calls available again without resetting the regular adventure. Reloading or Start over still resets the play session, as before. No account, online clock, purchases, particles or flashing lights are required.
+
+## Clean graphics remain
 
 The graphics selector has been removed. The game now uses **sharp graphics automatically**, matching the display’s pixel density up to 2×. Old graphics preferences are ignored, and no graphics setting or browser storage is required.
 
@@ -73,7 +89,7 @@ All earlier resource recipes remain: beacon **6/10**, relay **6/10**, garden **9
 
 ## Play and develop
 
-Download **Evergrow-Level-3.3-Clean.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
+Download **Evergrow-Halloween.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
 
 Node.js 22.12 or newer is required; the cloud uses Node 24.
 
@@ -88,4 +104,4 @@ The build exports Vite assets, a self-contained classic-script HTML game and rep
 
 Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-Clean graphics update validation: **139 unit checks and 9 browser checks passed**, plus an extracted-ZIP offline playthrough through 2,000 km. Older published downloads remain available.
+Halloween validation: **146 unit checks and 8 browser checks passed**, including all three seasonal rescues, costumes, parade, 2,000 km, strict offline sandbox, live season closing and next-year return. The extracted ZIP also passed its offline date-switch check. Older published downloads remain preserved.
