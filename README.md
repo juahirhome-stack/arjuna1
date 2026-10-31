@@ -1,10 +1,46 @@
-# Evergrow — Halloween: The Growing Pumpkin Parade
+# Evergrow — Level 3.4: The Navigation Frontier
 
-[Download the Halloween game](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Halloween.zip)
+[Download Level 3.4](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.4.zip)
+
+The same first-person story now reaches **35,000 km**, with a game menu, saved stories, four navigation-satellite repairs, five crew rescues and new MEO activities. The previous 2,000 km stop is resumable. All earlier adventures and the annual Halloween event remain.
+
+## Game menu and saved stories
+
+**New Game** starts at home. **Menu** pauses all simulation clocks, mining, construction and active rescues. **Quit Game** saves your current story and leaves you at the menu; you can then close the browser tab. Reopen the same HTML file in the same browser and choose **Resume**. Growing remains paused until you choose **Keep growing**, while an unfinished rescue can continue from its saved stage. New Game asks before replacing an existing story.
+
+The game saves after story actions, every five active seconds, when opening the menu and when leaving the page. Continuous tuning sliders are picked up by the next periodic or exit save. **Download save** creates a portable `Evergrow-save.json`; **Load save** imports it after validation. Use a backup when moving to a new game file or clearing browser data. If browser storage is unavailable, the menu explains that the current session can resume, but you need a downloaded save before closing. There is no account or cloud save. A bad import leaves the current story intact; text from imported rescue records is rebuilt from the game's trusted data.
+
+## A new MEO journey
+
+MEO approaches geostationary altitude, about 35,786 km. This game's simpler upper limit is **35,000 km**. Between 2,000 and 5,000 km the helmet gradually changes its exaggerated close-up storybook globe into the wide Earth view, using Earth's approximate **6,371 km radius**. Above 5,000 km this globe gets smaller as you grow. The floating world-city, normal arms, shields and self-replicating suit keep following you. Fixed ISS and Hubble visits still work at 400 and 520 km, including from the new cap.
+
+| Height | New activity or mission |
+| --- | --- |
+| 3,000 km | Rescue the waystation workshop's 6 engineers. |
+| 5,000 km | Build a free navigation beacon in four active seconds. |
+| 8,000 km | Rescue the solar-sail courier's 8 helpers. |
+| 12,000 km | Rescue the navigation school cabin's 18 students and helpers. |
+| 16,000 km | Tune the pretend navigation clock to **42**, within 2, and lock it. |
+| 19,100 km | Repair an uncrewed **GLONASS** navigation satellite. |
+| 20,200 km | Repair an uncrewed **GPS** satellite. |
+| 21,528 km | Repair an uncrewed **BeiDou MEO** satellite. |
+| 23,222 km | Repair an uncrewed **Galileo** satellite. |
+| 27,000 km | Rescue 20 outer-orbit observatory researchers. |
+| 31,000 km | Look at and scan three marked safe flight lanes. |
+| 35,000 km | Rescue a 120-person MEO liner and earn the **MEO Pathfinder** badge. |
+
+The four satellite heights are approximate representative MEO altitudes. In the dream, protected service lanes put these crafts beside your hands. Look, catch and lower each onto a service terrace to restore its signal. The navigation satellites have **no people aboard**, so repairs earn popularity and social points without adding fictional people to the lives-saved counter. The five crew rescues save **172 people**. All nine missions award once and each saves a distinct replay and pretend social post, for **844,000 popularity** and **2,320,000 social points** in total.
+
+After each satellite repair, select the requested system and choose **Look at this system**, then route its message: mountain rescuers → GLONASS; ocean pilots → GPS; ship captains → BeiDou; balloon scientists → Galileo. Beacon and clock must be ready. Wrong routes cost nothing. Once all four messages, nine missions, three lanes, beacon and clock are complete, claim the Pathfinder badge at the cap. MEO activities give **5,150 separate points**: beacon 300, clock 400, four messages 1,200, three scans 750 and badge 2,500.
+
+There are **153 optional story tasks**, **69 Lab observations** and **74 automatic growth stops**. Unfinished activities, mining, rescue calls and station visits remain available at 35,000 km. All models remain bounded, and the 24 fps drawing limit, offscreen sleep, polygon culling and sharp display-density canvases remain enabled.
+
+## Earlier updates
+
 
 The same first-person adventure now has an automatically recurring Halloween event. **October 1–31 each year, Singapore time (UTC+8)**: themed home and world, pumpkin lanterns, bat bunting, warm city windows, a growing costume, and pumpkins on the phone and weather camera. It closes **November 1 at 00:00** and returns the next October without downloading another seasonal update. The offline game follows the computer’s clock.
 
-Choose Pumpkin explorer, Friendly bat or Moon ghost. Deliver five lantern-and-treat parcels at home, 25 m, 100 m, 10 km and 100 km for **100 Halloween points each**. Complete three seasonal rescues to unlock the harvest lantern parade for **1,000 bonus points**. The seasonal checklist is separate from the original 139 tasks; it adds no growth stops and no resource costs.
+Choose Pumpkin explorer, Friendly bat or Moon ghost. Deliver five lantern-and-treat parcels at home, 25 m, 100 m, 10 km and 100 km for **100 Halloween points each**. Complete three seasonal rescues to unlock the harvest lantern parade for **1,000 bonus points**. The seasonal checklist is separate from the regular story tasks; it adds no growth stops and no resource costs.
 
 | Halloween rescue | Height | People | Popularity | Social points |
 | --- | ---: | ---: | ---: | ---: |
@@ -73,7 +109,7 @@ These eight save **935 people**, with **486,000 popularity** and **1,180,000 soc
 
 Wear F1 boots, SRMAS, NASA shields and the celebration shield, and let Friendship Spaceport finish building. Answer a rescue call, **Look at rescue**, **Catch** when lined up and close, then **Lower gently**. Each lands on a clear terrace below your eyes. Protective levitation moves the load while arms keep normal proportions. Growth and walking pause; there is no crash countdown. Each rescue awards once after landing and saves its own pretend social post and replay. Climate controls are locked during active rescues, rides and station visits.
 
-There are now **139 optional tasks**, **57 Lab observations** and **62 automatic stops**. New stops are **1,100, 1,200, 1,300, 1,400, 1,500, 1,650, 1,800, 1,900 and 2,000 km**. Start over clears the current session's progress, including weather, pictures, time and inventions.
+Level 3.3 added the weather chapter; Level 3.4 expands the totals to **153 optional tasks**, **69 Lab observations** and **74 automatic stops**. New stops are **1,100, 1,200, 1,300, 1,400, 1,500, 1,650, 1,800, 1,900 and 2,000 km**. Start over clears the current session's progress, including weather, pictures, time and inventions.
 
 ## Earlier adventures remain
 
@@ -89,7 +125,7 @@ All earlier resource recipes remain: beacon **6/10**, relay **6/10**, garden **9
 
 ## Play and develop
 
-Download **Evergrow-Halloween.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
+Download **Evergrow-Level-3.4.zip**. On Windows: right-click → **Extract All** → open **Play-Evergrow.html** in Chrome. The ZIP contains exactly that HTML file and **READ-ME.txt**. No installer, account, backend, server or internet is required. Drag to look; W A S D, arrows and on-screen controls move and turn.
 
 Node.js 22.12 or newer is required; the cloud uses Node 24.
 
@@ -104,4 +140,4 @@ The build exports Vite assets, a self-contained classic-script HTML game and rep
 
 Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-Halloween validation: **146 unit checks and 8 browser checks passed**, including all three seasonal rescues, costumes, parade, 2,000 km, strict offline sandbox, live season closing and next-year return. The extracted ZIP also passed its offline date-switch check. Older published downloads remain preserved.
+Level 3.4 validation: **160 unit checks and 8 browser checks passed**, including persisted Resume, active rescue reload, safe New Game, portable save backups, all nine MEO missions, activities, replays, 35,000 km and fixed station visits. The extracted ZIP also passed its offline menu and Halloween date checks. Older published downloads remain preserved.
