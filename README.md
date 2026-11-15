@@ -1,6 +1,11 @@
-# Evergrow — Level 3.4: The Navigation Frontier
+# Evergrow — Level 3.4: Height Milestones
 
-[Download Level 3.4](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.4.zip)
+[Download the milestone update](https://raw.githubusercontent.com/juahirhome-stack/arjuna1/evergrow-download/Evergrow-Level-3.4-Milestones.zip)
+
+The **milestone tracker** below the height controls shows your next height goal, progress toward it, and a checklist of **75 height milestones** from home at 1.2 m to 35,000 km. Open **See all milestones** to view the checklist; reached goals turn green. It follows the existing story stops and is calculated from your height, including when resuming or loading an existing save.
+
+Download **Evergrow-Level-3.4-Milestones.zip**. To carry your current story into the updated file, use **Menu → Download save** in the old game, then **Load save** in the new one.
+
 
 The same first-person story now reaches **35,000 km**, with a game menu, saved stories, four navigation-satellite repairs, five crew rescues and new MEO activities. The previous 2,000 km stop is resumable. All earlier adventures and the annual Halloween event remain.
 
@@ -140,4 +145,4 @@ The build exports Vite assets, a self-contained classic-script HTML game and rep
 
 Validation covers exact cycle lengths and lighting, time independent of growth pace, live weather and saved snapshots, daylight-only charging and single resource spending, tuning and festival gates, all eight new rescues and independent replays, normal arms, 62 stops, the expanded cap, fixed Hubble/ISS return visits, timers at the cap, reset and offline touch sandboxes. Browser checks use Linux Chromium; Windows Chrome and the chat Web preview wrapper are not directly tested.
 
-Level 3.4 validation: **160 unit checks and 8 browser checks passed**, including persisted Resume, active rescue reload, safe New Game, portable save backups, all nine MEO missions, activities, replays, 35,000 km and fixed station visits. The extracted ZIP also passed its offline menu and Halloween date checks. Older published downloads remain preserved.
+Milestone update validation: **163 unit checks and 5 browser checks passed**, covering threshold progress, the 35,000 km finish, existing save imports, Resume, New Game, narrow offline sandbox, movement and the first-person story. The extracted ZIP also passed its offline startup and tracker check. Older downloads remain preserved.
